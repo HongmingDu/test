@@ -1,0 +1,21 @@
+.msg_wrap {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transition: all .3s;
+    transform: translate(-50%, -50%) scale(0, 0);
+    background: #fff;
+    font-size: 10px;
+}
+.msg-body {
+    display: flex;
+}
+.msg-body-content{
+    min-width: 200px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+}

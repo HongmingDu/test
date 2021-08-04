@@ -1,0 +1,32 @@
+.projectdetail{
+    width:70%;
+    padding-top:100px;
+    margin-left: 50px;
+}
+.projectdetail div {
+    margin-bottom:30px;
+}
+.projectdetail h2{
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+label {
+    width: 15%;
+    display: inline-block;
+    font-family: Arial,Verdana,Sans-serif;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.projectdetail input[type=text] {
+    border: 1.5px solid #ccc;
+    width:65%;
+    height: 45px;
+    border-radius: 4px;
+    padding:3px 8px !important;
+}
+.projectdetail input[type=text]:focus {
+    outline: none;
+    border: 1.5px solid #3498db;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="utf-8"> 
+<title>Responsive design</title> 
+<style>
+body {
+    background-color:lightgray;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color:lightblue;
+    }
+}
+input[type=button] {
+    margin-top:5%;
+    margin-left:5%;
+    background-color: gray;
+    width:5%;
+    height:35px;
+    color:white;
+}
+</style>
+<script type="text/javascript">
+    function Back(){
+        window.location.href = "./main.html";
+    }
+</script>
+</head>
+<body>
+    <p>重置浏览器大小，当文档的宽度小于 800 像素，背景会变为浅蓝色，否则为浅灰色。</p>
+    <div>
+        <input type="button" value="Back" onclick="Back();" />
+    </div>
+</body>
+</html>
